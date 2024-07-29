@@ -35,63 +35,65 @@
         -m'' -a ko lagana sa ya hota ha ka 1 hi command ma add or comment hojata ha</p>
 
     <h2>Create a new branch</h2>
-    <p>git branch <branch_name> is commands sa ya hota ha ka new branch banjati ha bs.</p>
+    <p>git branch branch_name is commands sa ya hota ha ka new branch banjati ha bs.</p>
 
     <h2>Switch to a different branch</h2>
-    <p>git checkout <branch_name> is commands sa ya hota ha ka jis branch ka nam dalo wo branch pa shift,move hojata ha
-            <p>git checkout -b <branch_name> creates and switches to a new branch</p>
+    <p>git checkout branch_name is commands sa ya hota ha ka jis branch ka nam dalo wo branch pa shift,move hojata ha
+            <p>git checkout -b branch_name creates and switches to a new branch</p>
     </p>
 
     <h2>Merge a branch</h2>
-    <p>git merge <branch_name> is commands sa ya hota ha ka jis branch ka nam dalo wo branch aap ki branch ma merge
+    <p>git merge branch_name is commands sa ya hota ha ka jis branch ka nam dalo wo branch aap ki branch ma merge
             hojati ha yani aap ka pas us branch ka code show hoga rather then ka uska pas aap ka code show ho</p>
 
     <h2>Rebase a branch</h2>
-    <p>git rebase <branch_name> is command sa ya hota ha ka jaisa merge ki command kam karti ha isitarha rebase ki
+    <p>git rebase branch_name is command sa ya hota ha ka jaisa merge ki command kam karti ha isitarha rebase ki
             command bhi kam karti ha magar jub hum code merge karta ha to automatically commint banjata ha lakin rebase
             sa commint nahi banta & sab sa IMPORTANT bat ya ha ka rebase kabhi bhi us branch pa nahi chalata jis branch
             pa project manager yani jo project lead karraha ho us branch pa nahi chalata</p>
 
     <h2>Delete a branch</h2>
-    <p>git branch -d <branch_name> is commands sa ya hota ha ka jis branch ka nam dalo wo branch delete hojati ha</p>
+    <p>git branch -d branch_name is commands sa ya hota ha ka jis branch ka nam dalo wo branch delete hojati ha</p>
 
+    <h2>Git rm --cached filename</h2>
+    <p>is command sa ya hota ha ka firebase ki config.js wali file  github ma nahi jati </p>
 
     <!-- Here are the GitHub commands to:
 
 1. Create a new branch:
 
-git branch <branch_name>
+git branch branch_name
 
 Example: git branch feature/new-feature
 
 1. Switch to a different branch:
 
-git checkout <branch_name>
+git checkout branch_name
 
 Example: git checkout feature/new-feature
 
 1. Merge a branch:
 
-git merge <branch_name>
+git merge branch_name
 
 Example: git merge feature/new-feature
 
 1. Delete a branch:
 
-git branch -d <branch_name>
+git branch -d branch_name
 
 Example: git branch -d feature/new-feature
 
 1. Rebase a branch:
 
-git rebase <branch_name>
+git rebase branch_name
 
 Example: git rebase main
 
 Note:
 
 - git branch lists all branches
-- git checkout -b <branch_name> creates and switches to a new branch
+- git checkout -b branch_name creates and switches to a new branch
 - git merge --abort aborts a merge
 - git rebase --abort aborts a rebase
 
